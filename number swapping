@@ -1,0 +1,7 @@
+x= input("x:")
+y=input("y:")
+z=input("z:")
+print(x,y,z)
+numbers=[x, y, z]
+ascending = sorted(numbers)
+print("The numbers in ascending order are:", ascending)
