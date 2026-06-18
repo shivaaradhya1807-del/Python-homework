@@ -1,0 +1,40 @@
+import turtle
+
+s=turtle.Screen()
+s.bgcolor("lightblue")
+s.setup(900,800)
+s.title("SHAPES")
+
+t=turtle.Turtle()
+t.pensize(5)
+
+
+for i in range(3):
+    t.pencolor("red")
+    t.forward(120)
+    t.left(120)
+
+t.penup()
+t.forward(200)
+t.pendown()
+
+for i in range(6):
+    t.pencolor("purple")
+    t.forward(100)
+    t.left(60)
+t.penup()
+t.backward(450)
+t.pendown()
+
+for i in range(2):
+    t.pencolor("pink")
+    t.forward(150)  
+    t.left(90)
+    t.forward(80)   
+    t.left(90)
+
+
+
+turtle.done()
+
+
